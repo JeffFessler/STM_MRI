@@ -20,5 +20,5 @@ This MATLAB software provides examples of the reconstruction framework proposed 
 ## References
 
 **[1]** R. A. Lobos, X. Wang, R. T. L. Fung, Y. He, D. Frey, D. Gupta, Z. Liu, J. A. Fessler, D. C. Noll.  
-"Spatiotemporal Maps for Dynamic MRI Reconstruction," 2025, arXiv:2507.14429.  
+"Spatiotemporal Maps for Dynamic MRI Reconstruction," IEEE Transactions on Computational Imaging, (In press).  
 https://arxiv.org/abs/2507.14429
