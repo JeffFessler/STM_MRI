@@ -143,7 +143,7 @@ L = 4;                                % Number of temporal basis functions to be
 
 tau      = 3;                         % Kernel radius. Default: 3
 
-threshold = 0.08;                     % Threshold for C-matrix singular values. Default: 0.05
+threshold = 0.035;                     % Threshold for C-matrix singular values. Default: 0.05
                                       % Note: In this example we don't use the default value.
 
 M = 20;                               % Number of iterations for Orthogonal Iteration. Default: 30
@@ -186,7 +186,7 @@ sketched_SVD = 1;                     % Binary variable. 1 = sketched SVD is use
                                       % calculating the nullspace vectors directly and then the 
                                       % basis). Default: 1
 
-OrthogonalIteration_G_nullspace_vectors = 1; % Binary variable. 1 = Orthogonal Iteration approach is 
+OrthogonalIteration_G_nullspace_vectors = 0; % Binary variable. 1 = Orthogonal Iteration approach is 
                                         % used to find nullspace vectors of the G matrices 
                                         % (instead of using SVD). Default: 1
 
@@ -229,7 +229,7 @@ disp(['Time for STM computation: ' num2str(toc(t_stm)) ' seconds']);
 disp('=======================');
 
 figure; 
-utils.mdisp(abs(eigenValues));
+imagesc(utils.mdisp(abs(eigenValues)));
 axis tight;
 axis image;
 colorbar; 
