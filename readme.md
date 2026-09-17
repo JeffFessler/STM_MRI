@@ -7,7 +7,8 @@ This MATLAB software provides examples of the reconstruction framework proposed 
 ## Notes
 
 - The reconstruction in the provided examples uses a simple Tikhonov-regularized model-based approach using STMs. However, once STMs are computed, more advanced reconstruction approaches or regularizers could be used.
-- The code for STM computation is based on the PISCO software for sensitivity map estimation: https://github.com/ralobos/PISCO.git
+- The code for STM computation is based on the PISCO software for sensitivity map estimation:
+  https://github.com/ralobos/PISCO
 - 3D examples will be provided soon.
 
 ## Contents
@@ -20,5 +21,7 @@ This MATLAB software provides examples of the reconstruction framework proposed 
 ## References
 
 **[1]** R. A. Lobos, X. Wang, R. T. L. Fung, Y. He, D. Frey, D. Gupta, Z. Liu, J. A. Fessler, D. C. Noll.  
-"Spatiotemporal Maps for Dynamic MRI Reconstruction," IEEE Transactions on Computational Imaging, (In press).  
+"Spatiotemporal Maps for Dynamic MRI Reconstruction," IEEE Transactions on Computational Imaging,
+Vol. 21, pp. 416-430, 2026.
+https://doi.org/10.1109/TCI.2026.3657289
 https://arxiv.org/abs/2507.14429
